@@ -51,6 +51,12 @@ export default [
       "react/display-name": "error",
       "no-func-assign": "error",
       "no-unsafe-finally": "error",
+      "no-console": "error",
+      "no-trailing-spaces": "error",
+      "object-curly-spacing": ["error", "always"],
+      "arrow-spacing": ["error", { before: true, after: true }],
+      "no-console": "error",
+      "react/prop-types": 0,
     },
   },
 ];
