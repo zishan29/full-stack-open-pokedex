@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ErrorMessage = ({ error }) => (
   <div data-testid="error">An error occured: {error.toString()}</div>
-)
+);
 
-export default ErrorMessage
+ErrorMessage.propTypes = {
+  error: Error,
+};
+
+export default ErrorMessage;
